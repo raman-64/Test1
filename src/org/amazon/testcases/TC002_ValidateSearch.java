@@ -5,6 +5,7 @@ package org.amazon.testcases;
 
 import java.net.MalformedURLException;
 import org.amazon.pages.HomePage;
+import org.amazon.pages.ProductDetailPage;
 import org.testng.annotations.Test;
 
 /**
@@ -18,6 +19,9 @@ public class TC002_ValidateSearch extends HomePage{
 		launchApplication();
 		String searchText=login_repo.getString("searchText");
 		search(searchText);
+		
+		randomSelect();
+		detailPage.
 		
 	 
 		

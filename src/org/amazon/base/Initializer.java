@@ -13,6 +13,7 @@ import java.net.URI;
 import java.util.Properties;
 
 import org.amazon.pages.HomePage;
+import org.amazon.pages.ProductDetailPage;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.remote.DesiredCapabilities;
 //import org.openqa.selenium.interactions.Actions;
@@ -93,6 +94,8 @@ public class Initializer {
 	public static int PortNumber;
 	// Page Objects
 	public static HomePage homePage = new HomePage();
+	public static ProductDetailPage detailPage=new ProductDetailPage();
+	
 	/*public static DealsPage dealsPage = new DealsPage();
 	public static CategoriesPage categoriesPage = new CategoriesPage();*/
 

@@ -18,10 +18,10 @@ public class TC002_ValidateSearch extends HomePage{
 		
 		launchApplication();
 		String searchText=login_repo.getString("searchText");
-		search(searchText);
-		
+		search(searchText);		
 		randomSelect();
-		detailPage.
+		ProductDetailPage.buyNowButton();
+		 
 		
 	 
 		

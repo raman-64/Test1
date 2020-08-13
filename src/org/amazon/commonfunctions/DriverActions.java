@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 
 public class DriverActions extends BrowserFactory {
@@ -46,11 +47,24 @@ public class DriverActions extends BrowserFactory {
 	}
 
 	public static void clickAndEnterValue(String xpath, String value) {
-		MobileElement el2 =  (MobileElement) driver.findElementByXPath(xpath);
+		MobileElement el2 = (MobileElement) driver.findElementByXPath(xpath);
 		System.out.println(value);
 		el2.sendKeys(value);
-		 
+	}
 
+	public static void scrollAndTapByText(String Text) {
+
+		try {
+			// driver.findElement(MobileBy.AndroidUIAutomator("new
+			// UiScrollable(newUiSelector()).scrollIntoView(newUiSelector().text(\""+menuText+"\"));")).click();
+			driver.findElement(MobileBy.AndroidUIAutomator(
+					"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textMatches(\""
+							+  Text + "\").instance(0));"))
+					.click();
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 }

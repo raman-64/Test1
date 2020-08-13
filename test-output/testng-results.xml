@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36536" started-at="2020-08-13T14:38:37Z" finished-at="2020-08-13T14:39:13Z">
+  <suite name="Default suite" duration-ms="72252" started-at="2020-08-13T15:29:21Z" finished-at="2020-08-13T15:30:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36536" started-at="2020-08-13T14:38:37Z" finished-at="2020-08-13T14:39:13Z">
+    <test name="Default test" duration-ms="72252" started-at="2020-08-13T15:29:21Z" finished-at="2020-08-13T15:30:33Z">
       <class name="org.amazon.testcases.TC002_ValidateSearch">
-        <test-method status="PASS" signature="setdata()[pri:0, instance:org.amazon.testcases.TC002_ValidateSearch@369f73a2]" name="setdata" is-config="true" duration-ms="5" started-at="2020-08-13T20:08:37Z" finished-at="2020-08-13T20:08:37Z">
+        <test-method status="PASS" signature="setdata()[pri:0, instance:org.amazon.testcases.TC002_ValidateSearch@369f73a2]" name="setdata" is-config="true" duration-ms="7" started-at="2020-08-13T20:59:21Z" finished-at="2020-08-13T20:59:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setdata -->
-        <test-method status="PASS" signature="getDesiredCapabilites()[pri:0, instance:org.amazon.testcases.TC002_ValidateSearch@369f73a2]" name="getDesiredCapabilites" is-config="true" duration-ms="4" started-at="2020-08-13T20:08:37Z" finished-at="2020-08-13T20:08:37Z">
+        <test-method status="PASS" signature="getDesiredCapabilites()[pri:0, instance:org.amazon.testcases.TC002_ValidateSearch@369f73a2]" name="getDesiredCapabilites" is-config="true" duration-ms="4" started-at="2020-08-13T20:59:21Z" finished-at="2020-08-13T20:59:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDesiredCapabilites -->
-        <test-method status="PASS" signature="ValidateSearch()[pri:0, instance:org.amazon.testcases.TC002_ValidateSearch@369f73a2]" name="ValidateSearch" duration-ms="36518" started-at="2020-08-13T20:08:37Z" finished-at="2020-08-13T20:09:13Z">
+        <test-method status="PASS" signature="ValidateSearch()[pri:0, instance:org.amazon.testcases.TC002_ValidateSearch@369f73a2]" name="ValidateSearch" duration-ms="72232" started-at="2020-08-13T20:59:21Z" finished-at="2020-08-13T21:00:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSearch -->

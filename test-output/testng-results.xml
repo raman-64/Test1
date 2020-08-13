@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25580" started-at="2020-08-13T02:16:12Z" finished-at="2020-08-13T02:16:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25580" started-at="2020-08-13T02:16:12Z" finished-at="2020-08-13T02:16:37Z">
+      <class name="org.amazon.testcases.TC002_ValidateSearch">
+        <test-method status="PASS" signature="setdata()[pri:0, instance:org.amazon.testcases.TC002_ValidateSearch@731a74c]" name="setdata" is-config="true" duration-ms="5" started-at="2020-08-13T07:46:12Z" finished-at="2020-08-13T07:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdata -->
+        <test-method status="PASS" signature="getDesiredCapabilites()[pri:0, instance:org.amazon.testcases.TC002_ValidateSearch@731a74c]" name="getDesiredCapabilites" is-config="true" duration-ms="3" started-at="2020-08-13T07:46:12Z" finished-at="2020-08-13T07:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDesiredCapabilites -->
+        <test-method status="PASS" signature="ValidateSearch()[pri:0, instance:org.amazon.testcases.TC002_ValidateSearch@731a74c]" name="ValidateSearch" duration-ms="25563" started-at="2020-08-13T07:46:12Z" finished-at="2020-08-13T07:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearch -->
+      </class> <!-- org.amazon.testcases.TC002_ValidateSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

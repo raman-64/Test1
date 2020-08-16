@@ -6,4 +6,15 @@
       <class name="org.amazon.testcases.TC002_ValidateSearch"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="org.amazon.testcases.TC002_ValidateSearch">
+        <methods>
+          <include name="getDesiredCapabilites"/>
+          <include name="setdata"/>
+          <include name="ValidateSearch"/>
+        </methods>
+      </class> <!-- org.amazon.testcases.TC002_ValidateSearch -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

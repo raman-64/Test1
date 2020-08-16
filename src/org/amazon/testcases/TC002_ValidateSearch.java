@@ -12,19 +12,15 @@ import org.testng.annotations.Test;
  * @author raman.dhiman
  *
  */
-public class TC002_ValidateSearch extends HomePage{
+public class TC002_ValidateSearch extends HomePage {
 	@Test
-	public void ValidateSearch() throws MalformedURLException {
-		
+	public void ValidateSearch() throws MalformedURLException, InterruptedException {
 		launchApplication();
-		String searchText=login_repo.getString("searchText");
-		search(searchText);		
+		String searchText = login_repo.getString("searchText");
+		search(searchText);
 		randomSelect();
 		ProductDetailPage.buyNowButton();
-		 
-		
-	 
-		
+
 	}
 
 }
